@@ -1,8 +1,17 @@
 body{
-    width: 100vw;
-    height: 100vh;
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    
+}
+
+.top-header{
+    position: fixed;
+    width: 99%;  
+    height: 100px;
+    z-index: 10; 
+    top: 0;
+    background-color: #FFFFFF;
+   
     
 }
 
@@ -27,6 +36,7 @@ nav{
    display: flex;
     justify-content: space-evenly;
     padding: 6px;
+    position: static;
 }
 
 .main-nav .logo{
@@ -48,8 +58,10 @@ nav{
 }
 
 .home-section{
+    min-height: calc(100vh - 100px);
     display: flex;
     background-color: #F6F6F6;
+    margin: 50px 0;
 }
 
 .home-section .lefthand-section{
@@ -69,6 +81,7 @@ nav{
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 20px;
+    margin-top: 50px;
    
 }
 
@@ -183,6 +196,8 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 15px;
+    min-height: calc(100vh - 100px);
+    /* border: 2px solid blue; */
   
 }
 
@@ -315,12 +330,12 @@ nav{
 }
 
 .pure-bloom-collection .discountrate{
-    background-color: #B67CCF;
+    background-color: #8546AE;
     color: #FFFFFF;
 }
 
 .pure-bloom-collection .button{
-    background-color: #FE90E5;
+    background-color: #FC93E9;
     color: #000000;
 }
 
